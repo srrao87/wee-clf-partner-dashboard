@@ -19,12 +19,19 @@ const mapRegistry = {
 };
 
 function createMap(containerId, options = {}) {
-  return window.L.map(containerId, {
+  const map = window.L.map(containerId, {
     zoomControl: true,
     scrollWheelZoom: false,
     attributionControl: false,
     ...options,
   });
+
+  window.L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
+    maxZoom: 19,
+    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>',
+  }).addTo(map);
+
+  return map;
 }
 
 async function loadGeojson(url) {
@@ -137,7 +144,10 @@ export async function renderHomeMap({ stateStats, matchedStateSlugs, messageTarg
       },
     }).addTo(registry.map);
 
-    focusMapBounds(registry.map, registry.layer);
+    window.setTimeout(() => {
+      registry.map.invalidateSize();
+      focusMapBounds(registry.map, registry.layer);
+    }, 0);
     messageTarget.classList.add("hidden");
     messageTarget.textContent = "";
   } catch (error) {
@@ -267,8 +277,10 @@ export async function renderStateDistrictMap({
       mapType === "partner" ? PARTNER_BUCKETS : CLF_CONCENTRATION_BUCKETS
     );
 
-    focusMapBounds(registry.map, registry.layer, selectedFeatureLayer);
-    window.setTimeout(() => registry.map.invalidateSize(), 0);
+    window.setTimeout(() => {
+      registry.map.invalidateSize();
+      focusMapBounds(registry.map, registry.layer, selectedFeatureLayer);
+    }, 0);
   } catch (error) {
     console.warn(`District map for ${slug} could not be rendered.`, error);
     messageTarget.textContent = "District boundary file not found for this state.";
