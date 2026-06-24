@@ -1,0 +1,55 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": { "STATE_NAME": "Rajasthan" },
+      "geometry": { "type": "Polygon", "coordinates": [[[70, 24], [75, 24], [75, 28.5], [70, 28.5], [70, 24]]] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "STATE_NAME": "Madhya Pradesh" },
+      "geometry": { "type": "Polygon", "coordinates": [[[74.5, 21], [80.5, 21], [80.5, 25.8], [74.5, 25.8], [74.5, 21]]] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "STATE_NAME": "Uttar Pradesh" },
+      "geometry": { "type": "Polygon", "coordinates": [[[79, 24], [84.8, 24], [84.8, 28.8], [79, 28.8], [79, 24]]] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "STATE_NAME": "Bihar" },
+      "geometry": { "type": "Polygon", "coordinates": [[[84, 24.5], [88.2, 24.5], [88.2, 27.1], [84, 27.1], [84, 24.5]]] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "STATE_NAME": "Jharkhand" },
+      "geometry": { "type": "Polygon", "coordinates": [[[83.8, 22], [87.7, 22], [87.7, 24.6], [83.8, 24.6], [83.8, 22]]] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "STATE_NAME": "Chhattisgarh" },
+      "geometry": { "type": "Polygon", "coordinates": [[[80, 18], [84.3, 18], [84.3, 24.2], [80, 24.2], [80, 18]]] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "STATE_NAME": "Odisha" },
+      "geometry": { "type": "Polygon", "coordinates": [[[84, 18], [87.8, 18], [87.8, 22.8], [84, 22.8], [84, 18]]] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "STATE_NAME": "Assam" },
+      "geometry": { "type": "Polygon", "coordinates": [[[90, 24], [96.5, 24], [96.5, 27.8], [90, 27.8], [90, 24]]] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "STATE_NAME": "West Bengal" },
+      "geometry": { "type": "Polygon", "coordinates": [[[86.8, 21], [89.9, 21], [89.9, 27.6], [86.8, 27.6], [86.8, 21]]] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "STATE_NAME": "Maharashtra" },
+      "geometry": { "type": "Polygon", "coordinates": [[[72, 16], [80.8, 16], [80.8, 22.8], [72, 22.8], [72, 16]]] }
+    }
+  ]
+}
