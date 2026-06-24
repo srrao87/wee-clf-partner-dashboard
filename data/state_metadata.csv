@@ -1,8 +1,0 @@
-state,state_slug,clf_csv_file,clf_data_scope,clf_data_note
-Assam,assam,data/clf_lists/assam.csv,partner_engaged_clfs_only,Only CLFs with one or more mapped partner organisations are included in this dataset.
-Bihar,bihar,data/clf_lists/bihar.csv,partner_engaged_clfs_only,Only CLFs with one or more mapped partner organisations are included in this dataset.
-Chhattisgarh,chhattisgarh,data/clf_lists/chhattisgarh.csv,partner_engaged_clfs_only,Only CLFs with one or more mapped partner organisations are included in this dataset.
-Jharkhand,jharkhand,data/clf_lists/jharkhand.csv,partner_engaged_clfs_only,Only CLFs with one or more mapped partner organisations are included in this dataset.
-Madhya Pradesh,madhya-pradesh,data/clf_lists/madhya-pradesh.csv,partner_engaged_clfs_only,Only CLFs with one or more mapped partner organisations are included in this dataset.
-Odisha,odisha,data/clf_lists/odisha.csv,partner_engaged_clfs_only,Only CLFs with one or more mapped partner organisations are included in this dataset.
-Uttar Pradesh,uttar-pradesh,data/clf_lists/uttar-pradesh.csv,partner_engaged_clfs_only,Only CLFs with one or more mapped partner organisations are included in this dataset.
