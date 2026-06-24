@@ -1,3 +1,4 @@
+import * as d3 from "https://cdn.jsdelivr.net/npm/d3@7/+esm";
 import {
   CLF_CONCENTRATION_BUCKETS,
   FILE_PATHS,
@@ -96,15 +97,15 @@ function renderSvgMap({
   const width = Math.max(container.clientWidth || 0, 640);
   const height = Math.max(container.clientHeight || 0, 420);
 
-  const svg = window.d3
+  const svg = d3
     .select(container)
     .append("svg")
     .attr("viewBox", `0 0 ${width} ${height}`)
     .attr("preserveAspectRatio", "xMidYMid meet")
     .attr("class", "svg-map");
 
-  const projection = window.d3.geoMercator().fitSize([width - 10, height - 10], geojson);
-  const path = window.d3.geoPath(projection);
+  const projection = d3.geoMercator().fitSize([width - 10, height - 10], geojson);
+  const path = d3.geoPath(projection);
 
   svg
     .append("g")
