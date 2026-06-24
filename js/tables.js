@@ -61,10 +61,8 @@ export function initDistrictDetailTable() {
     return districtDetailTable;
   }
 
-  districtDetailTable = $("#district-detail-table").DataTable({
+  const baseConfig = {
     ...dataTableBaseConfig(),
-    dom: "Bfrtip",
-    buttons: ["csvHtml5", "excelHtml5", "pdfHtml5"],
     columns: [
       { title: "District" },
       { title: "Block" },
@@ -72,7 +70,18 @@ export function initDistrictDetailTable() {
       { title: "Partner Organization" },
       { title: "Project Title" },
     ],
-  });
+  };
+
+  try {
+    districtDetailTable = $("#district-detail-table").DataTable({
+      ...baseConfig,
+      dom: "Bfrtip",
+      buttons: ["csvHtml5", "excelHtml5"],
+    });
+  } catch (error) {
+    console.warn("District detail export buttons could not be initialized.", error);
+    districtDetailTable = $("#district-detail-table").DataTable(baseConfig);
+  }
 
   return districtDetailTable;
 }
