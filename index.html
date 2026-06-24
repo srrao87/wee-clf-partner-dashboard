@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Women's Economic Empowerment Partners' Forum</title>
+    <meta
+      name="description"
+      content="Static dashboard for mapping Gates Foundation-funded partner engagement with Cluster Level Federations across seven focus states."
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+      integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+      crossorigin=""
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.datatables.net/1.13.8/css/jquery.dataTables.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.datatables.net/buttons/2.4.2/css/buttons.dataTables.min.css"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main-content">Skip to main content</a>
+    <header class="site-header">
+      <div class="header-shell">
+        <div class="brand-block">
+          <p class="brand-kicker">Gates Foundation</p>
+          <h1>Women's Economic Empowerment Partners' Forum</h1>
+        </div>
+        <div class="header-tools">
+          <label class="search-shell" for="universal-search">
+            <span class="visually-hidden">Universal search</span>
+            <input
+              id="universal-search"
+              type="search"
+              placeholder="Search district, CLF, partner, or project"
+              aria-label="Search district, CLF, partner organization, or project title"
+              autocomplete="off"
+            />
+          </label>
+          <div id="search-status" class="search-status" aria-live="polite"></div>
+        </div>
+      </div>
+      <nav class="top-nav" aria-label="Primary">
+        <div id="nav-tabs" class="nav-tabs" role="tablist" aria-label="Dashboard sections"></div>
+      </nav>
+    </header>
+
+    <main id="main-content" class="page-shell">
+      <section id="app-loading" class="status-card loading-card" aria-live="polite">
+        Loading dashboard data...
+      </section>
+      <section id="app-error" class="status-card error-card hidden" aria-live="polite"></section>
+
+      <section id="home-view" class="view-panel hidden" aria-labelledby="home-page-title">
+        <div class="hero-panel">
+          <div>
+            <p class="eyebrow">Home</p>
+            <h2 id="home-page-title">Women's Economic Empowerment Partners' Forum</h2>
+            <p class="intro-copy">
+              The Women's Economic Empowerment Partners' Forum brings together
+              Gates Foundation-supported organizations working to strengthen
+              women's livelihoods, agency, and economic participation. Partner
+              organizations engage with Cluster Level Federations (CLFs),
+              district systems, and community institutions to support
+              implementation, learning, and scale. This dashboard maps the
+              geographic reach of partner engagement, the distribution of CLFs
+              in the available datasets, and areas where multiple partners are
+              working with the same CLFs.
+            </p>
+          </div>
+          <div id="home-footnotes" class="footnote-stack"></div>
+        </div>
+
+        <section class="section-block" aria-labelledby="national-snapshot-title">
+          <div class="section-heading">
+            <div>
+              <p class="eyebrow">Overview</p>
+              <h3 id="national-snapshot-title">National Snapshot</h3>
+            </div>
+          </div>
+          <div id="national-kpis" class="kpi-grid"></div>
+        </section>
+
+        <section class="section-block two-column-home" aria-labelledby="india-map-title">
+          <div class="panel-card">
+            <div class="section-heading">
+              <div>
+                <p class="eyebrow">Geographic Coverage</p>
+                <h3 id="india-map-title">India Overview Map</h3>
+                <p class="section-subtitle">
+                  Focus states are highlighted. Click a state to open the
+                  state-level view.
+                </p>
+              </div>
+            </div>
+            <div id="india-map-message" class="inline-message hidden"></div>
+            <div id="india-map" class="map-frame map-frame-lg" aria-label="India overview map"></div>
+          </div>
+
+          <div class="panel-card">
+            <div class="section-heading">
+              <div>
+                <p class="eyebrow">Comparison</p>
+                <h3>State Comparison Table</h3>
+                <p class="section-subtitle">
+                  Search, sort, and select a state to move into the detailed view.
+                </p>
+              </div>
+            </div>
+            <div class="table-wrap">
+              <table id="state-comparison-table" class="display compact stripe" width="100%">
+                <thead>
+                  <tr>
+                    <th>State</th>
+                    <th>Districts Covered</th>
+                    <th>Partners</th>
+                    <th>CLFs</th>
+                  </tr>
+                </thead>
+                <tbody></tbody>
+              </table>
+            </div>
+          </div>
+        </section>
+      </section>
+
+      <section id="state-view" class="view-panel hidden" aria-labelledby="state-page-title">
+        <div class="hero-panel compact-hero">
+          <div>
+            <p class="eyebrow">State View</p>
+            <h2 id="state-page-title"></h2>
+          </div>
+          <div id="state-coverage-note" class="coverage-note"></div>
+        </div>
+
+        <section class="section-block" aria-labelledby="filter-bar-title">
+          <div class="section-heading">
+            <div>
+              <p class="eyebrow">Controls</p>
+              <h3 id="filter-bar-title">Global Filters</h3>
+            </div>
+          </div>
+          <div id="state-filter-bar" class="filter-bar"></div>
+        </section>
+
+        <section class="section-block" aria-labelledby="state-snapshot-title">
+          <div class="section-heading">
+            <div>
+              <p class="eyebrow">Snapshot</p>
+              <h3 id="state-snapshot-title">State Snapshot</h3>
+            </div>
+          </div>
+          <div id="state-kpis" class="kpi-grid"></div>
+          <div id="state-kpi-note" class="kpi-note"></div>
+        </section>
+
+        <section class="section-block" aria-labelledby="geo-reach-title">
+          <div class="section-heading">
+            <div>
+              <p class="eyebrow">Section 1</p>
+              <h3 id="geo-reach-title">Geographic Reach</h3>
+              <p class="section-subtitle">
+                Colour intensity represents the number of partner organisations
+                active within a district.
+              </p>
+            </div>
+          </div>
+          <div class="two-column-layout">
+            <div class="panel-card">
+              <div id="geographic-map-message" class="inline-message hidden"></div>
+              <div id="geographic-map" class="map-frame" aria-label="Geographic reach map"></div>
+              <div id="geographic-map-summary" class="text-summary"></div>
+            </div>
+            <div class="panel-card">
+              <div class="panel-header">
+                <div>
+                  <h4>Partner Directory</h4>
+                  <p class="section-subtitle">
+                    Click a partner to focus the map and district detail view.
+                  </p>
+                </div>
+              </div>
+              <div id="partner-directory" class="scroll-panel directory-list"></div>
+            </div>
+          </div>
+        </section>
+
+        <section class="section-block" aria-labelledby="clf-concentration-title">
+          <div class="section-heading">
+            <div>
+              <p class="eyebrow">Section 2</p>
+              <h3 id="clf-concentration-title">CLF Concentration</h3>
+              <p class="section-subtitle">
+                Colour intensity represents the number of Cluster Level Federations
+                (CLFs) present within a district.
+              </p>
+            </div>
+          </div>
+          <div class="two-column-layout">
+            <div class="panel-card">
+              <div id="clf-map-message" class="inline-message hidden"></div>
+              <div id="clf-map" class="map-frame" aria-label="CLF concentration map"></div>
+              <div id="clf-map-summary" class="text-summary"></div>
+            </div>
+            <div class="panel-card">
+              <div class="panel-header">
+                <div>
+                  <h4>Hotspot Intelligence Panel</h4>
+                  <p class="section-subtitle">
+                    Shared CLFs show where two or more partner organizations work with the same CLF.
+                  </p>
+                </div>
+              </div>
+              <div class="subpanel">
+                <h5>Top CLF Hotspots</h5>
+                <div id="hotspot-list" class="scroll-panel hotspot-list"></div>
+              </div>
+              <div class="subpanel">
+                <h5>Shared CLF Directory</h5>
+                <div id="shared-clf-directory" class="scroll-panel shared-directory"></div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="section-block" aria-labelledby="district-details-title">
+          <div class="section-heading">
+            <div>
+              <p class="eyebrow">Section 3</p>
+              <h3 id="district-details-title">District Details</h3>
+            </div>
+          </div>
+          <div class="panel-card">
+            <div id="district-details-summary" class="district-summary"></div>
+            <div class="table-wrap">
+              <table id="district-detail-table" class="display compact stripe" width="100%">
+                <thead>
+                  <tr>
+                    <th>District</th>
+                    <th>Block</th>
+                    <th>CLF Name</th>
+                    <th>Partner Organization</th>
+                    <th>Project Title</th>
+                  </tr>
+                </thead>
+                <tbody></tbody>
+              </table>
+            </div>
+          </div>
+        </section>
+      </section>
+    </main>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/papaparse@5.4.1/papaparse.min.js"></script>
+    <script src="https://cdn.datatables.net/1.13.8/js/jquery.dataTables.min.js"></script>
+    <script src="https://cdn.datatables.net/buttons/2.4.2/js/dataTables.buttons.min.js"></script>
+    <script src="https://cdn.datatables.net/buttons/2.4.2/js/buttons.html5.min.js"></script>
+    <script src="https://cdn.datatables.net/buttons/2.4.2/js/buttons.print.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.10.1/jszip.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.2.7/pdfmake.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.2.7/vfs_fonts.js"></script>
+    <script type="module" src="js/app.js"></script>
+  </body>
+</html>
