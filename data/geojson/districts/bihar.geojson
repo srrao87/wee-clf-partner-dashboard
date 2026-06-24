@@ -1,0 +1,1259 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "DISTRICT": "Araria"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              84.15,
+              26.945
+            ],
+            [
+              84.57,
+              26.945
+            ],
+            [
+              84.57,
+              26.605
+            ],
+            [
+              84.15,
+              26.605
+            ],
+            [
+              84.15,
+              26.945
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "DISTRICT": "Arwal"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              84.63,
+              26.945
+            ],
+            [
+              85.05,
+              26.945
+            ],
+            [
+              85.05,
+              26.605
+            ],
+            [
+              84.63,
+              26.605
+            ],
+            [
+              84.63,
+              26.945
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "DISTRICT": "Aurangabad"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              85.11,
+              26.945
+            ],
+            [
+              85.53,
+              26.945
+            ],
+            [
+              85.53,
+              26.605
+            ],
+            [
+              85.11,
+              26.605
+            ],
+            [
+              85.11,
+              26.945
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "DISTRICT": "Banka"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              85.59,
+              26.945
+            ],
+            [
+              86.01,
+              26.945
+            ],
+            [
+              86.01,
+              26.605
+            ],
+            [
+              85.59,
+              26.605
+            ],
+            [
+              85.59,
+              26.945
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "DISTRICT": "Begusarai"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              86.07,
+              26.945
+            ],
+            [
+              86.49,
+              26.945
+            ],
+            [
+              86.49,
+              26.605
+            ],
+            [
+              86.07,
+              26.605
+            ],
+            [
+              86.07,
+              26.945
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "DISTRICT": "Bhagalpur"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              86.55,
+              26.945
+            ],
+            [
+              86.97,
+              26.945
+            ],
+            [
+              86.97,
+              26.605
+            ],
+            [
+              86.55,
+              26.605
+            ],
+            [
+              86.55,
+              26.945
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "DISTRICT": "Bhojpur"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              87.03,
+              26.945
+            ],
+            [
+              87.45,
+              26.945
+            ],
+            [
+              87.45,
+              26.605
+            ],
+            [
+              87.03,
+              26.605
+            ],
+            [
+              87.03,
+              26.945
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "DISTRICT": "Buxar"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              84.15,
+              26.555
+            ],
+            [
+              84.57,
+              26.555
+            ],
+            [
+              84.57,
+              26.215
+            ],
+            [
+              84.15,
+              26.215
+            ],
+            [
+              84.15,
+              26.555
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "DISTRICT": "Darbhanga"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              84.63,
+              26.555
+            ],
+            [
+              85.05,
+              26.555
+            ],
+            [
+              85.05,
+              26.215
+            ],
+            [
+              84.63,
+              26.215
+            ],
+            [
+              84.63,
+              26.555
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "DISTRICT": "Gaya"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              85.11,
+              26.555
+            ],
+            [
+              85.53,
+              26.555
+            ],
+            [
+              85.53,
+              26.215
+            ],
+            [
+              85.11,
+              26.215
+            ],
+            [
+              85.11,
+              26.555
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "DISTRICT": "Gopalganj"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              85.59,
+              26.555
+            ],
+            [
+              86.01,
+              26.555
+            ],
+            [
+              86.01,
+              26.215
+            ],
+            [
+              85.59,
+              26.215
+            ],
+            [
+              85.59,
+              26.555
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "DISTRICT": "Jamui"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              86.07,
+              26.555
+            ],
+            [
+              86.49,
+              26.555
+            ],
+            [
+              86.49,
+              26.215
+            ],
+            [
+              86.07,
+              26.215
+            ],
+            [
+              86.07,
+              26.555
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "DISTRICT": "Jehanabad"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              86.55,
+              26.555
+            ],
+            [
+              86.97,
+              26.555
+            ],
+            [
+              86.97,
+              26.215
+            ],
+            [
+              86.55,
+              26.215
+            ],
+            [
+              86.55,
+              26.555
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "DISTRICT": "Kaimur (Bhabua)"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              87.03,
+              26.555
+            ],
+            [
+              87.45,
+              26.555
+            ],
+            [
+              87.45,
+              26.215
+            ],
+            [
+              87.03,
+              26.215
+            ],
+            [
+              87.03,
+              26.555
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "DISTRICT": "Katihar"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              84.15,
+              26.165
+            ],
+            [
+              84.57,
+              26.165
+            ],
+            [
+              84.57,
+              25.825
+            ],
+            [
+              84.15,
+              25.825
+            ],
+            [
+              84.15,
+              26.165
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "DISTRICT": "Khagaria"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              84.63,
+              26.165
+            ],
+            [
+              85.05,
+              26.165
+            ],
+            [
+              85.05,
+              25.825
+            ],
+            [
+              84.63,
+              25.825
+            ],
+            [
+              84.63,
+              26.165
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "DISTRICT": "Kishanganj"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              85.11,
+              26.165
+            ],
+            [
+              85.53,
+              26.165
+            ],
+            [
+              85.53,
+              25.825
+            ],
+            [
+              85.11,
+              25.825
+            ],
+            [
+              85.11,
+              26.165
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "DISTRICT": "Lakhisarai"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              85.59,
+              26.165
+            ],
+            [
+              86.01,
+              26.165
+            ],
+            [
+              86.01,
+              25.825
+            ],
+            [
+              85.59,
+              25.825
+            ],
+            [
+              85.59,
+              26.165
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "DISTRICT": "Madhepura"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              86.07,
+              26.165
+            ],
+            [
+              86.49,
+              26.165
+            ],
+            [
+              86.49,
+              25.825
+            ],
+            [
+              86.07,
+              25.825
+            ],
+            [
+              86.07,
+              26.165
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "DISTRICT": "Madhubani"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              86.55,
+              26.165
+            ],
+            [
+              86.97,
+              26.165
+            ],
+            [
+              86.97,
+              25.825
+            ],
+            [
+              86.55,
+              25.825
+            ],
+            [
+              86.55,
+              26.165
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "DISTRICT": "Munger"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              87.03,
+              26.165
+            ],
+            [
+              87.45,
+              26.165
+            ],
+            [
+              87.45,
+              25.825
+            ],
+            [
+              87.03,
+              25.825
+            ],
+            [
+              87.03,
+              26.165
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "DISTRICT": "Muzaffarpur"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              84.15,
+              25.775
+            ],
+            [
+              84.57,
+              25.775
+            ],
+            [
+              84.57,
+              25.435
+            ],
+            [
+              84.15,
+              25.435
+            ],
+            [
+              84.15,
+              25.775
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "DISTRICT": "Nalanda"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              84.63,
+              25.775
+            ],
+            [
+              85.05,
+              25.775
+            ],
+            [
+              85.05,
+              25.435
+            ],
+            [
+              84.63,
+              25.435
+            ],
+            [
+              84.63,
+              25.775
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "DISTRICT": "Nawada"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              85.11,
+              25.775
+            ],
+            [
+              85.53,
+              25.775
+            ],
+            [
+              85.53,
+              25.435
+            ],
+            [
+              85.11,
+              25.435
+            ],
+            [
+              85.11,
+              25.775
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "DISTRICT": "Pashchim Champaran"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              85.59,
+              25.775
+            ],
+            [
+              86.01,
+              25.775
+            ],
+            [
+              86.01,
+              25.435
+            ],
+            [
+              85.59,
+              25.435
+            ],
+            [
+              85.59,
+              25.775
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "DISTRICT": "Patna"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              86.07,
+              25.775
+            ],
+            [
+              86.49,
+              25.775
+            ],
+            [
+              86.49,
+              25.435
+            ],
+            [
+              86.07,
+              25.435
+            ],
+            [
+              86.07,
+              25.775
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "DISTRICT": "Purbi Champaran"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              86.55,
+              25.775
+            ],
+            [
+              86.97,
+              25.775
+            ],
+            [
+              86.97,
+              25.435
+            ],
+            [
+              86.55,
+              25.435
+            ],
+            [
+              86.55,
+              25.775
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "DISTRICT": "Purnia"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              87.03,
+              25.775
+            ],
+            [
+              87.45,
+              25.775
+            ],
+            [
+              87.45,
+              25.435
+            ],
+            [
+              87.03,
+              25.435
+            ],
+            [
+              87.03,
+              25.775
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "DISTRICT": "Rohtas"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              84.15,
+              25.385
+            ],
+            [
+              84.57,
+              25.385
+            ],
+            [
+              84.57,
+              25.045
+            ],
+            [
+              84.15,
+              25.045
+            ],
+            [
+              84.15,
+              25.385
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "DISTRICT": "Saharsa"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              84.63,
+              25.385
+            ],
+            [
+              85.05,
+              25.385
+            ],
+            [
+              85.05,
+              25.045
+            ],
+            [
+              84.63,
+              25.045
+            ],
+            [
+              84.63,
+              25.385
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "DISTRICT": "Samastipur"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              85.11,
+              25.385
+            ],
+            [
+              85.53,
+              25.385
+            ],
+            [
+              85.53,
+              25.045
+            ],
+            [
+              85.11,
+              25.045
+            ],
+            [
+              85.11,
+              25.385
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "DISTRICT": "Saran"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              85.59,
+              25.385
+            ],
+            [
+              86.01,
+              25.385
+            ],
+            [
+              86.01,
+              25.045
+            ],
+            [
+              85.59,
+              25.045
+            ],
+            [
+              85.59,
+              25.385
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "DISTRICT": "Sheikhpura"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              86.07,
+              25.385
+            ],
+            [
+              86.49,
+              25.385
+            ],
+            [
+              86.49,
+              25.045
+            ],
+            [
+              86.07,
+              25.045
+            ],
+            [
+              86.07,
+              25.385
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "DISTRICT": "Sheohar"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              86.55,
+              25.385
+            ],
+            [
+              86.97,
+              25.385
+            ],
+            [
+              86.97,
+              25.045
+            ],
+            [
+              86.55,
+              25.045
+            ],
+            [
+              86.55,
+              25.385
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "DISTRICT": "Sitamarhi"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              87.03,
+              25.385
+            ],
+            [
+              87.45,
+              25.385
+            ],
+            [
+              87.45,
+              25.045
+            ],
+            [
+              87.03,
+              25.045
+            ],
+            [
+              87.03,
+              25.385
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "DISTRICT": "Siwan"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              84.15,
+              24.995
+            ],
+            [
+              84.57,
+              24.995
+            ],
+            [
+              84.57,
+              24.655
+            ],
+            [
+              84.15,
+              24.655
+            ],
+            [
+              84.15,
+              24.995
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "DISTRICT": "Supaul"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              84.63,
+              24.995
+            ],
+            [
+              85.05,
+              24.995
+            ],
+            [
+              85.05,
+              24.655
+            ],
+            [
+              84.63,
+              24.655
+            ],
+            [
+              84.63,
+              24.995
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "DISTRICT": "Vaishali"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              85.11,
+              24.995
+            ],
+            [
+              85.53,
+              24.995
+            ],
+            [
+              85.53,
+              24.655
+            ],
+            [
+              85.11,
+              24.655
+            ],
+            [
+              85.11,
+              24.995
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

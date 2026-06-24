@@ -1,0 +1,401 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "DISTRICT": "Angul"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              83.67,
+              20.56
+            ],
+            [
+              84.09,
+              20.56
+            ],
+            [
+              84.09,
+              20.22
+            ],
+            [
+              83.67,
+              20.22
+            ],
+            [
+              83.67,
+              20.56
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "DISTRICT": "Bargarh"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              84.15,
+              20.56
+            ],
+            [
+              84.57,
+              20.56
+            ],
+            [
+              84.57,
+              20.22
+            ],
+            [
+              84.15,
+              20.22
+            ],
+            [
+              84.15,
+              20.56
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "DISTRICT": "Bolangir"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              84.63,
+              20.56
+            ],
+            [
+              85.05,
+              20.56
+            ],
+            [
+              85.05,
+              20.22
+            ],
+            [
+              84.63,
+              20.22
+            ],
+            [
+              84.63,
+              20.56
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "DISTRICT": "Deogarh"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              85.11,
+              20.56
+            ],
+            [
+              85.53,
+              20.56
+            ],
+            [
+              85.53,
+              20.22
+            ],
+            [
+              85.11,
+              20.22
+            ],
+            [
+              85.11,
+              20.56
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "DISTRICT": "Gajapati"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              83.67,
+              20.17
+            ],
+            [
+              84.09,
+              20.17
+            ],
+            [
+              84.09,
+              19.83
+            ],
+            [
+              83.67,
+              19.83
+            ],
+            [
+              83.67,
+              20.17
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "DISTRICT": "Ganjam"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              84.15,
+              20.17
+            ],
+            [
+              84.57,
+              20.17
+            ],
+            [
+              84.57,
+              19.83
+            ],
+            [
+              84.15,
+              19.83
+            ],
+            [
+              84.15,
+              20.17
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "DISTRICT": "Kalahandi"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              84.63,
+              20.17
+            ],
+            [
+              85.05,
+              20.17
+            ],
+            [
+              85.05,
+              19.83
+            ],
+            [
+              84.63,
+              19.83
+            ],
+            [
+              84.63,
+              20.17
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "DISTRICT": "Kandhamal"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              85.11,
+              20.17
+            ],
+            [
+              85.53,
+              20.17
+            ],
+            [
+              85.53,
+              19.83
+            ],
+            [
+              85.11,
+              19.83
+            ],
+            [
+              85.11,
+              20.17
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "DISTRICT": "Koraput"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              83.67,
+              19.78
+            ],
+            [
+              84.09,
+              19.78
+            ],
+            [
+              84.09,
+              19.44
+            ],
+            [
+              83.67,
+              19.44
+            ],
+            [
+              83.67,
+              19.78
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "DISTRICT": "Malkangiri"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              84.15,
+              19.78
+            ],
+            [
+              84.57,
+              19.78
+            ],
+            [
+              84.57,
+              19.44
+            ],
+            [
+              84.15,
+              19.44
+            ],
+            [
+              84.15,
+              19.78
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "DISTRICT": "Mayurbhanj"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              84.63,
+              19.78
+            ],
+            [
+              85.05,
+              19.78
+            ],
+            [
+              85.05,
+              19.44
+            ],
+            [
+              84.63,
+              19.44
+            ],
+            [
+              84.63,
+              19.78
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "DISTRICT": "Rayagada"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              85.11,
+              19.78
+            ],
+            [
+              85.53,
+              19.78
+            ],
+            [
+              85.53,
+              19.44
+            ],
+            [
+              85.11,
+              19.44
+            ],
+            [
+              85.11,
+              19.78
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}
