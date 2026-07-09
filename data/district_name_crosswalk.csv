@@ -1,0 +1,243 @@
+state,csv_district,geojson_district
+Assam,Darrang,Darrang
+Assam,Kamrup,Kamrup
+Assam,Nagaon,Nagaon
+Assam,Morigaon,Morigaon
+Assam,Goalpara,Goalpara
+Bihar,Araria,Araria
+Bihar,Arwal,Arwal
+Bihar,Aurangabad,Aurangabad
+Bihar,Banka,Banka
+Bihar,Begusarai,Begusarai
+Bihar,Bhagalpur,Bhagalpur
+Bihar,Bhojpur,Bhojpur
+Bihar,Buxar,Buxar
+Bihar,Darbhanga,Darbhanga
+Bihar,Gaya,Gaya
+Bihar,Gopalganj,Gopalganj
+Bihar,Jamui,Jamui
+Bihar,Jehanabad,Jehanabad
+Bihar,Kaimur (Bhabua),Kaimur
+Bihar,Katihar,Katihar
+Bihar,Khagaria,Khagaria
+Bihar,Kishanganj,Kishanganj
+Bihar,Lakhisarai,Lakhisarai
+Bihar,Madhepura,Madhepura
+Bihar,Madhubani,Madhubani
+Bihar,Munger,Munger
+Bihar,Muzaffarpur,Muzaffarpur
+Bihar,Nalanda,Nalanda
+Bihar,Nawada,Nawada
+Bihar,Pashchim Champaran,West Champaran
+Bihar,Patna,Patna
+Bihar,Purbi Champaran,East Champaran
+Bihar,Purnia,Purnia
+Bihar,Rohtas,Rohtas
+Bihar,Saharsa,Saharsa
+Bihar,Samastipur,Samastipur
+Bihar,Saran,Saran
+Bihar,Sheikhpura,Sheikhpura
+Bihar,Sheohar,Sheohar
+Bihar,Sitamarhi,Sitamarhi
+Bihar,Siwan,Siwan
+Bihar,Supaul,Supaul
+Bihar,Vaishali,Vaishali
+Chhattisgarh,Balod,Durg
+Chhattisgarh,Baloda Bazar,Raipur
+Chhattisgarh,Balrampur,Surguja
+Chhattisgarh,Bastar,Bastar
+Chhattisgarh,Bemetara,Durg
+Chhattisgarh,Bijapur,Bijapur
+Chhattisgarh,Bilaspur,Bilaspur
+Chhattisgarh,Dantewada,Dakshin Bastar Dantewada
+Chhattisgarh,Dhamtari,Dhamtari
+Chhattisgarh,Durg,Durg
+Chhattisgarh,Gariyaband,Raipur
+Chhattisgarh,Gaurella Pendra Marwahi,Bilaspur
+Chhattisgarh,Janjgir-champa,Janjgir-champa
+Chhattisgarh,Jashpur,Jashpur
+Chhattisgarh,Kanker,Uttar Bastar Kanker
+Chhattisgarh,Kawardha,Kabeerdham
+Chhattisgarh,Khairgarh Chhuikhadan Gandai,Rajnandgaon
+Chhattisgarh,Kondagaon,Bastar
+Chhattisgarh,Korba,Korba
+Chhattisgarh,Korea,Koriya
+Chhattisgarh,Mahasamund,Mahasamund
+Chhattisgarh,Manendragarh Chirimiri Bharatpur,Koriya
+Chhattisgarh,Mohla Manpur Ambagarh Chouki,Rajnandgaon
+Chhattisgarh,Mungeli,Bilaspur
+Chhattisgarh,Narayanpur,Narayanpur
+Chhattisgarh,Raigarh,Raigarh
+Chhattisgarh,Raipur,Raipur
+Chhattisgarh,Rajnandagon,Rajnandgaon
+Chhattisgarh,Sakti,Janjgir-champa
+Chhattisgarh,Sarangarh Bilaigarh,Raigarh
+Chhattisgarh,Sukma,Dakshin Bastar Dantewada
+Chhattisgarh,Surajpur,Surguja
+Chhattisgarh,Surguja,Surguja
+Jharkhand,Bokaro,Bokaro
+Jharkhand,Chatra,Chatra
+Jharkhand,Deoghar,Deoghar
+Jharkhand,Dhanbad,Dhanbad
+Jharkhand,Dumka,Dumka
+Jharkhand,East Singhbum,East Singhbhum
+Jharkhand,Garhwa,Garhwa
+Jharkhand,Giridih,Giridih
+Jharkhand,Godda,Godda
+Jharkhand,Gumla,Gumla
+Jharkhand,Hazaribagh,Hazaribagh
+Jharkhand,Jamtara,Jamtara
+Jharkhand,Khunti,Khunti
+Jharkhand,Koderma,Koderma
+Jharkhand,Latehar,Latehar
+Jharkhand,Lohardaga,Lohardaga
+Jharkhand,Pakur,Pakur
+Jharkhand,Palamu,Palamu
+Jharkhand,Ramgarh,Ramgarh
+Jharkhand,Ranchi,Ranchi
+Jharkhand,Sahebganj,Sahibganj
+Jharkhand,Saraikela Kharsawan,Saraikela-kharsawan
+Jharkhand,Simdega,Simdega
+Jharkhand,West Singhbhum,West Singhbhum
+Madhya Pradesh,Agar,Shajapur
+Madhya Pradesh,Alirajpur,Alirajpur
+Madhya Pradesh,Anuppur,Anuppur
+Madhya Pradesh,Ashok Nagar,Ashoknagar
+Madhya Pradesh,Balaghat,Balaghat
+Madhya Pradesh,Barwani,Barwani
+Madhya Pradesh,Betul,Betul
+Madhya Pradesh,Bhind,Bhind
+Madhya Pradesh,Bhopal,Bhopal
+Madhya Pradesh,Burhanpur,Burhanpur
+Madhya Pradesh,Chhatarpur,Chhatarpur
+Madhya Pradesh,Chhindwara,Chhindwara
+Madhya Pradesh,Damoh,Damoh
+Madhya Pradesh,Datia,Datia
+Madhya Pradesh,Dewas,Dewas
+Madhya Pradesh,Dhar,Dhar
+Madhya Pradesh,Dindori,Dindori
+Madhya Pradesh,Guna,Guna
+Madhya Pradesh,Gwalior,Gwalior
+Madhya Pradesh,Harda,Harda
+Madhya Pradesh,Indore,Indore
+Madhya Pradesh,Jabalpur,Jabalpur
+Madhya Pradesh,Jhabua,Jhabua
+Madhya Pradesh,Katni,Katni
+Madhya Pradesh,Khandwa,East Nimar
+Madhya Pradesh,Khargone,West Nimar
+Madhya Pradesh,Maihar,Satna
+Madhya Pradesh,Mandla,Mandla
+Madhya Pradesh,Mandsaur,Mandsaur
+Madhya Pradesh,Mauganj,Rewa
+Madhya Pradesh,Morena,Morena
+Madhya Pradesh,Narmadapuram,Hoshangabad
+Madhya Pradesh,Narsinghpur,Narsimhapur
+Madhya Pradesh,Neemuch,Neemuch
+Madhya Pradesh,Niwari,Tikamgarh
+Madhya Pradesh,Pandhurna,Chhindwara
+Madhya Pradesh,Panna,Panna
+Madhya Pradesh,Raisen,Raisen
+Madhya Pradesh,Rajgarh,Rajgarh
+Madhya Pradesh,Ratlam,Ratlam
+Madhya Pradesh,Rewa,Rewa
+Madhya Pradesh,Sagar,Sagar
+Madhya Pradesh,Satna,Satna
+Madhya Pradesh,Sehore,Sehore
+Madhya Pradesh,Seoni,Seoni
+Madhya Pradesh,Shahdol,Shahdol
+Madhya Pradesh,Shajapur,Shajapur
+Madhya Pradesh,Sheopur,Sheopur
+Madhya Pradesh,Shivpuri,Shivpuri
+Madhya Pradesh,Sidhi,Sidhi
+Madhya Pradesh,Singroli,Singrauli
+Madhya Pradesh,Tikamgarh,Tikamgarh
+Madhya Pradesh,Ujjain,Ujjain
+Madhya Pradesh,Umaria,Umaria
+Madhya Pradesh,Vidisha,Vidisha
+Odisha,Angul,Anugul
+Odisha,Bargarh,Bargarh
+Odisha,Bolangir,Balangir
+Odisha,Deogarh,Debagarh
+Odisha,Gajapati,Gajapati
+Odisha,Ganjam,Ganjam
+Odisha,Kalahandi,Kalahandi
+Odisha,Kandhamal,Kandhamal
+Odisha,Koraput,Koraput
+Odisha,Malkangiri,Malkangiri
+Odisha,Mayurbhanj,Mayurbhanj
+Odisha,Rayagada,Rayagada
+Uttar Pradesh,Agra,Agra
+Uttar Pradesh,Aligarh,Aligarh
+Uttar Pradesh,Ambedkar Nagar,Ambedkar Nagar
+Uttar Pradesh,Amethi,Sultanpur
+Uttar Pradesh,Amroha,Jyotiba Phule Nagar
+Uttar Pradesh,Auraiya,Auraiya
+Uttar Pradesh,Ayodhya,Faizabad
+Uttar Pradesh,Azamgarh,Azamgarh
+Uttar Pradesh,Baghpat,Baghpat
+Uttar Pradesh,Bahraich,Bahraich
+Uttar Pradesh,Ballia,Ballia
+Uttar Pradesh,Balrampur,Balrampur
+Uttar Pradesh,Banda,Banda
+Uttar Pradesh,Barabanki,Bara Banki
+Uttar Pradesh,Bareilly,Bareilly
+Uttar Pradesh,Basti,Basti
+Uttar Pradesh,Bijnor,Bijnor
+Uttar Pradesh,Budaun,Budaun
+Uttar Pradesh,Bulandshahr,Bulandshahr
+Uttar Pradesh,Chandauli,Chandauli
+Uttar Pradesh,Chitrakoot,Chitrakoot
+Uttar Pradesh,Deoria,Deoria
+Uttar Pradesh,Etah,Etah
+Uttar Pradesh,Etawah,Etawah
+Uttar Pradesh,Farrukhabad,Farrukhabad
+Uttar Pradesh,Fatehpur,Fatehpur
+Uttar Pradesh,Firozabad,Firozabad
+Uttar Pradesh,Gautam Buddha Nagar,Gautam Buddha Nagar
+Uttar Pradesh,Ghaziabad,Ghaziabad
+Uttar Pradesh,Ghazipur,Ghazipur
+Uttar Pradesh,Gonda,Gonda
+Uttar Pradesh,Gorakhpur,Gorakhpur
+Uttar Pradesh,Hamirpur,Hamirpur
+Uttar Pradesh,Hapur,Ghaziabad
+Uttar Pradesh,Hardoi,Hardoi
+Uttar Pradesh,Hathras,Mahamaya Nagar
+Uttar Pradesh,Jalaun,Jalaun
+Uttar Pradesh,Jaunpur,Jaunpur
+Uttar Pradesh,Jhansi,Jhansi
+Uttar Pradesh,Kannauj,Kannauj
+Uttar Pradesh,Kanpur Dehat,Kanpur Dehat
+Uttar Pradesh,Kanpur Nagar,Kanpur Nagar
+Uttar Pradesh,Kasganj,Kansiram Nagar
+Uttar Pradesh,Kaushambi,Kaushambi
+Uttar Pradesh,Kheri,Kheri
+Uttar Pradesh,Kushi Nagar,Kushinagar
+Uttar Pradesh,Lalitpur,Lalitpur
+Uttar Pradesh,Lucknow,Lucknow
+Uttar Pradesh,Maharajganj,Maharajganj
+Uttar Pradesh,Mahoba,Mahoba
+Uttar Pradesh,Mainpuri,Mainpuri
+Uttar Pradesh,Mathura,Mathura
+Uttar Pradesh,Mau,Mau
+Uttar Pradesh,Meerut,Meerut
+Uttar Pradesh,Mirzapur,Mirzapur
+Uttar Pradesh,Moradabad,Moradabad
+Uttar Pradesh,Muzaffarnagar,Muzaffarnagar
+Uttar Pradesh,Pilibhit,Pilibhit
+Uttar Pradesh,Pratapgarh,Pratapgarh
+Uttar Pradesh,Prayagraj,Allahabad
+Uttar Pradesh,Rae Bareli,Rae Bareli
+Uttar Pradesh,Rampur,Rampur
+Uttar Pradesh,Saharanpur,Saharanpur
+Uttar Pradesh,Sambhal,Moradabad
+Uttar Pradesh,Sant Kabeer Nagar,Sant Kabir Nagar
+Uttar Pradesh,Sant Ravidas Nagar,Sant Ravi Das Nagar(bhadohi)
+Uttar Pradesh,Shahjahanpur,Shahjahanpur
+Uttar Pradesh,Shamli,Muzaffarnagar
+Uttar Pradesh,Shravasti,Shrawasti
+Uttar Pradesh,Siddharth Nagar,Siddharth Nagar
+Uttar Pradesh,Sitapur,Sitapur
+Uttar Pradesh,Sonbhadra,Sonbhadra
+Uttar Pradesh,Sultanpur,Sultanpur
+Uttar Pradesh,Unnao,Unnao
+Uttar Pradesh,Varanasi,Varanasi

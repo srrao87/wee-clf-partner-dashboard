@@ -1,0 +1,8 @@
+state,state_slug,clf_csv_file,clf_data_scope,clf_data_note
+Assam,assam,data/clf_lists/assam.csv,full_state_clf_list,
+Bihar,bihar,data/clf_lists/bihar.csv,full_state_clf_list,
+Chhattisgarh,chhattisgarh,data/clf_lists/chhattisgarh.csv,full_state_clf_list,
+Jharkhand,jharkhand,data/clf_lists/jharkhand.csv,full_state_clf_list,
+Madhya Pradesh,madhya-pradesh,data/clf_lists/madhya-pradesh.csv,full_state_clf_list,
+Odisha,odisha,data/clf_lists/odisha.csv,full_state_clf_list,
+Uttar Pradesh,uttar-pradesh,data/clf_lists/uttar-pradesh.csv,full_state_clf_list,
